@@ -1,0 +1,43 @@
+.game-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .cell:hover {
+    background-color: #ddd;
+  }
+  
+  .reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .reset-btn:hover {
+    background-color: #0056b3;
+  }
+  

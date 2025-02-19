@@ -1,0 +1,19 @@
+.main{
+   display: flex;
+   flex-direction: column;
+   gap:20px
+}
+.box{
+    width: 90vw;
+    border: 1px solid gray;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.visible{
+    display: block;
+}
+.hide{
+    display: none;
+}

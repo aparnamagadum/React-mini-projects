@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+}
+.main{
+    width: 150px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.gray{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-color: red; 
+}
+.green{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
