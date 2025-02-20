@@ -24,6 +24,9 @@
 // import Toast from "./components/toastpopup/Toast"
 // import TransferList from "./components/transferlist/TransferList"
 // import LoadMore from "./components/loadmore/LoadMore"
+
+import TypeHead from "./components/typeHead/TypeHead"
+
 // import Quiz from "./components/quizapp/Quiz"
 function App() {
   return (
@@ -55,6 +58,7 @@ function App() {
     {/* <TransferList/> */}
     {/* <Quiz/> */}
     {/* <LoadMore/> */}
+    <TypeHead/>
     </>
   )
 }
