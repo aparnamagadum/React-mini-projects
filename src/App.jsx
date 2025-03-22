@@ -3,7 +3,7 @@
 // import GuessNumber from "./components/guess/GuessNumber"
 // import Image from "./components/image/Image"
 // import StarRating from "./components/star/StarRating"
-// import Stepper from "./components/stepper/Stepper"
+ import Stepper from "./components/stepper/Stepper"
 // import String from "./components/stringtransformer/String"
 // import Telephone from "./components/telephoneformat/Telephone"
 // import TicTocToe from "./components/tictoctoe/TicTocToe"
@@ -24,9 +24,7 @@
 // import Toast from "./components/toastpopup/Toast"
 // import TransferList from "./components/transferlist/TransferList"
 // import LoadMore from "./components/loadmore/LoadMore"
-
-import TypeHead from "./components/typeHead/TypeHead"
-
+// import TypeHead from "./components/typeHead/TypeHead"
 // import Quiz from "./components/quizapp/Quiz"
 function App() {
   return (
@@ -39,7 +37,7 @@ function App() {
     {/* <Telephone/> */}
     {/* <String/> */}
     {/* <TicTocToe/> */}
-    {/* <Stepper/> */}
+    <Stepper/>
     {/* <Traffic/> */}
     {/* <Toast/> */}
     {/* <Password/> */}
@@ -58,7 +56,7 @@ function App() {
     {/* <TransferList/> */}
     {/* <Quiz/> */}
     {/* <LoadMore/> */}
-    <TypeHead/>
+    {/* <TypeHead/> */}
     </>
   )
 }
